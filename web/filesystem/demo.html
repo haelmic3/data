@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Filesystem Demo</title>
+<style>
+*{
+	background:black;
+	color:white;
+}
+img,video,span.item{
+	float:left;
+	display:block;
+	width:auto;
+	height:auto;
+	max-width:500px;
+	max-height:300px;
+}
+.item{
+	unicode-bidi: embed;
+	font-family: monospace;
+	white-space: pre;
+	overflow:auto;
+}
+.pad-bar{
+	
+}
+.boss-bar{
+	position:fixed;
+	opacity:0.50;
+}
+.boss-bar:hover{
+	opacity:1.00
+}
+span#feature{color:pink;display:inline-block;width:4em;}
+</style>
+</head>
+<body>
+<div class="boss-bar">
+<input id="file" type="file" multiple accept="image/*,video/*" webkitdirectory/>
+<input type="button" value="Feature" onclick="auto()"/><span id="feature"
+>Null</span>
+<input type="button" value="Die" onclick="window.location=window.location;"/>
+</div>
+<div class="pad-bar"></div>
+<div id="main">
+<br/>
+</div>
+<script src="main.script.js"></script>
+</body>
+</html>

@@ -2,7 +2,7 @@
 
 # Build instruction
 
-make -j 5
+`make -j 5`
 to build all executables
 j flag is optional but 5 is most number of threads that can speed up compile time.
 

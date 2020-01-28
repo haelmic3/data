@@ -6,7 +6,7 @@ make -j 5
 
 j flag is optional but 5 is most number of threads that can speed up compile time.
 
-## xen  an image viewer.
+## xen an animated image viewer.
 
 on a debian based linux distro the following are the required package names.
 

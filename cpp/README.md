@@ -6,10 +6,12 @@ make -j 5
 to build all executables
 j flag is optional but 5 is most number of threads that can speed up compile time.
 
-make xen
+`make xen`
 for just xen
-make hash
-make comp
+
+`make hash`
+
+`make comp`
 
 
 ## xen an animated image viewer.

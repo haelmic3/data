@@ -1,5 +1,3 @@
-# C++ Code
-
 # Build instruction
 
 `make -j 5`
